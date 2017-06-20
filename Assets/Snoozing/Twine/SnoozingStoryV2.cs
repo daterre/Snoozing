@@ -41,7 +41,6 @@ public partial class @SnoozingStoryV2: Cradle.StoryFormats.Sugar.SugarStory
 	#region Initialization
 	// ---------------
 
-	public readonly UnityTwineTestMacros macros1;
 
 	@SnoozingStoryV2()
 	{
@@ -49,7 +48,6 @@ public partial class @SnoozingStoryV2: Cradle.StoryFormats.Sugar.SugarStory
 
 		base.Vars = new VarDefs() { Story = this, StrictMode = false };
 
-		macros1 = new UnityTwineTestMacros() { Story = this };
 
 		base.Init();
 		passage0_Init();
